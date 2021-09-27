@@ -1,0 +1,67 @@
+/*var code= +prompt("enter a number","");
+
+function isPrime(number){
+	for(var i=2;i<number;i++){
+		if(number%i==0){
+			return false;
+		}
+	}
+	return true;
+	
+}
+
+if(isPrime(code)){
+	console.log(code+" is a prime number");
+}else{
+	console.log(code+" is a composite number");
+}
+*/
+/*function toCamelCase(sentence){
+	var words=sentence.split(" ");
+	for(var i=0;i<words.length;i++){
+		words[i]=words[i][0].toUpperCase()+words[i].substring(1,words[i].length);
+	}
+	words[0]=words[0][0].toLowerCase()+words[0].substring(1,words[0].length);
+	var result=words.join("");
+	console.log(result);
+}
+var a=prompt("enter a sentence","");
+console.log(toCamelCase(a));
+*/
+
+/*let nums=[11,4,7,0,3,14,1,0];
+let odds=0;
+let evens=0;
+let zeroes=0;
+
+for(let i=0;i<nums.length;i++){
+	if(nums[i]===0){
+		zeroes++;
+	}else if(nums[i]%2===0){
+		evens++;
+	}else{
+		odds++;
+	}
+}
+console.log("odds "+odds);
+console.log("evens "+evens);
+console.log("zeroes "+zeroes);
+*/
+/*let windowWidth=window.innerWidth;
+let windowHeight=window.innerHeight;
+let body=document.body;
+
+function createDiv(){
+	let rand=Math.floor(Math.random()*windowWidth);
+	let div=document.createElement("div");
+	div.style.top=0+"px";
+	div.style.right=rand+"px";
+	body.appendChild(div);
+}
+*/
+
+	//let inp1 = $('#inp1');
+	//let inp2 = $("#inp2");
+	//$('#inp1').on("keydown",function(){
+	//$("#inp2").val($('#inp1').val());
+//})
